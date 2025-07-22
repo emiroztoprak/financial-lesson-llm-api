@@ -1,0 +1,24 @@
+{
+  "modelName": "gpt-4o-mini",
+  "temperature": 0.0,
+  "timestamp": "20250722_155244",
+  "userProfile": {
+    "age": 24,
+    "location": "Berlin, Germany",
+    "Occupation": "Software Developer",
+    "Language": "Spanish",
+    "Goal": "Working as a freelancer"
+  },
+  "messages": [
+    "\nYour job is to increase the financial literacy of a person who may be living in different contexts such as language, location etc.\nDepending on these data, I want you to give a number of financial advices to this person.\nYour response must be in JSON format, and must be personalized and region‑specific according to the input.\n\nEXAMPLE:\nINPUT:\n{\"age\": 24, \"location\": \"Berlin, Germany\", \"Occupation\": \"Pharmacy owner\", \"Language\": \"English\", \"Goal\": \"to grow his/her business\"}\n\nOUTPUT:\n{\"advices\": [\"focus on marketing top‑selling products\", \"reduce stock or discontinue low sellers\", \"add wellness kits to your offerings\"]}\n",
+    "\nINPUT:\n{\"age\": 24, \"location\": \"Berlin, Germany\", \"Occupation\": \"Software Developer\", \"Language\": \"Spanish\", \"Goal\": \"Working as a freelancer\"}\n\nOUTPUT:\n",
+    "{\n  \"advices\": [\n    \"Crea un portafolio en línea para mostrar tus proyectos y habilidades.\",\n    \"Investiga plataformas de freelance populares en Europa, como Upwork o Freelancer.\",\n    \"Establece tarifas competitivas basadas en tu experiencia y el mercado local.\",\n    \"Considera registrarte como autónomo en Alemania para cumplir con las obligaciones fiscales.\",\n    \"Aprovecha las redes sociales y grupos de tecnología para hacer networking y encontrar clientes.\"\n  ]\n}"
+  ],
+  "lessons": [
+    "Crea un portafolio en línea para mostrar tus proyectos y habilidades.",
+    "Investiga plataformas de freelance populares en Europa, como Upwork o Freelancer.",
+    "Establece tarifas competitivas basadas en tu experiencia y el mercado local.",
+    "Considera registrarte como autónomo en Alemania para cumplir con las obligaciones fiscales.",
+    "Aprovecha las redes sociales y grupos de tecnología para hacer networking y encontrar clientes."
+  ]
+}

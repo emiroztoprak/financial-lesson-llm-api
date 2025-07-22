@@ -1,0 +1,24 @@
+{
+  "modelName": "gpt-4o-mini",
+  "temperature": 0.0,
+  "timestamp": "20250722_155230",
+  "userProfile": {
+    "age": 24,
+    "location": "Istanbul, Turkey",
+    "Occupation": "Software Developer",
+    "Language": "Spanish",
+    "Goal": "Working as a freelancer"
+  },
+  "messages": [
+    "\nYour job is to increase the financial literacy of a person who may be living in different contexts such as language, location etc.\nDepending on these data, I want you to give a number of financial advices to this person.\nYour response must be in JSON format, and must be personalized and region‑specific according to the input.\n\nEXAMPLE:\nINPUT:\n{\"age\": 24, \"location\": \"Berlin, Germany\", \"Occupation\": \"Pharmacy owner\", \"Language\": \"English\", \"Goal\": \"to grow his/her business\"}\n\nOUTPUT:\n{\"advices\": [\"focus on marketing top‑selling products\", \"reduce stock or discontinue low sellers\", \"add wellness kits to your offerings\"]}\n",
+    "\nINPUT:\n{\"age\": 24, \"location\": \"Istanbul, Turkey\", \"Occupation\": \"Software Developer\", \"Language\": \"Spanish\", \"Goal\": \"Working as a freelancer\"}\n\nOUTPUT:\n",
+    "{\n  \"advices\": [\n    \"Establece un portafolio en línea para mostrar tus proyectos y habilidades.\",\n    \"Investiga plataformas de freelancing populares en Turquía y en el mundo hispanohablante, como Upwork o Freelancer.\",\n    \"Considera aprender sobre la gestión de impuestos para freelancers en Turquía para evitar sorpresas fiscales.\",\n    \"Crea una red de contactos con otros freelancers y profesionales en tu campo para obtener referencias y oportunidades.\",\n    \"Ofrece servicios adicionales como consultoría o mantenimiento de software para diversificar tus ingresos.\"\n  ]\n}"
+  ],
+  "lessons": [
+    "Establece un portafolio en línea para mostrar tus proyectos y habilidades.",
+    "Investiga plataformas de freelancing populares en Turquía y en el mundo hispanohablante, como Upwork o Freelancer.",
+    "Considera aprender sobre la gestión de impuestos para freelancers en Turquía para evitar sorpresas fiscales.",
+    "Crea una red de contactos con otros freelancers y profesionales en tu campo para obtener referencias y oportunidades.",
+    "Ofrece servicios adicionales como consultoría o mantenimiento de software para diversificar tus ingresos."
+  ]
+}
