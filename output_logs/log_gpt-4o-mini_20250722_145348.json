@@ -1,0 +1,25 @@
+{
+  "modelName": "gpt-4o-mini",
+  "temperature": 0.0,
+  "timestamp": "20250722_145348",
+  "userProfile": {
+    "age": 22,
+    "location": "Istanbul, Turkey",
+    "Occupation": "SW Dev",
+    "Language": "English",
+    "Goal": "buying my own house"
+  },
+  "messages": [
+    "\nYour job is to increase the financial literacy of a person who may be living in different contexts such as language, location etc.\nDepending on these data, I want you to give a number of financial advices to this person.\nYour response must be in JSON format, and must be personalized and region‑specific according to the input.\n\nEXAMPLE:\nINPUT:\n{\"age\": 24, \"location\": \"Berlin, Germany\", \"Occupation\": \"Pharmacy owner\", \"Language\": \"English\", \"Goal\": \"to grow his/her business\"}\n\nOUTPUT:\n{\"advices\": [\"focus on marketing top‑selling products\", \"reduce stock or discontinue low sellers\", \"add wellness kits to your offerings\"]}\n",
+    "\nINPUT:\n{\"age\": 22, \"location\": \"Istanbul, Turkey\", \"Occupation\": \"SW Dev\", \"Language\": \"English\", \"Goal\": \"buying my own house\"}\n\nOUTPUT:\n",
+    "{\n  \"advices\": [\n    \"start saving for a down payment by setting up a dedicated savings account\",\n    \"research the housing market in Istanbul to understand pricing trends\",\n    \"consider government incentives or programs for first-time homebuyers in Turkey\",\n    \"improve your credit score by paying off debts and making payments on time\",\n    \"explore mortgage options and get pre-approved to know your budget\",\n    \"attend workshops or seminars on home buying to gain more knowledge\"\n  ]\n}"
+  ],
+  "lessons": [
+    "start saving for a down payment by setting up a dedicated savings account",
+    "research the housing market in Istanbul to understand pricing trends",
+    "consider government incentives or programs for first-time homebuyers in Turkey",
+    "improve your credit score by paying off debts and making payments on time",
+    "explore mortgage options and get pre-approved to know your budget",
+    "attend workshops or seminars on home buying to gain more knowledge"
+  ]
+}

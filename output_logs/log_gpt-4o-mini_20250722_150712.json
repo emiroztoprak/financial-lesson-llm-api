@@ -1,0 +1,24 @@
+{
+  "modelName": "gpt-4o-mini",
+  "temperature": 0.0,
+  "timestamp": "20250722_150712",
+  "userProfile": {
+    "age": 22,
+    "location": "Istanbul, Turkey",
+    "Occupation": "SW Dev",
+    "Language": "Turkish",
+    "Goal": "buying my own house"
+  },
+  "messages": [
+    "\nYour job is to increase the financial literacy of a person who may be living in different contexts such as language, location etc.\nDepending on these data, I want you to give a number of financial advices to this person.\nYour response must be in JSON format, and must be personalized and region‑specific according to the input.\n\nEXAMPLE:\nINPUT:\n{\"age\": 24, \"location\": \"Berlin, Germany\", \"Occupation\": \"Pharmacy owner\", \"Language\": \"English\", \"Goal\": \"to grow his/her business\"}\n\nOUTPUT:\n{\"advices\": [\"focus on marketing top‑selling products\", \"reduce stock or discontinue low sellers\", \"add wellness kits to your offerings\"]}\n",
+    "\nINPUT:\n{\"age\": 22, \"location\": \"Istanbul, Turkey\", \"Occupation\": \"SW Dev\", \"Language\": \"Turkish\", \"Goal\": \"buying my own house\"}\n\nOUTPUT:\n",
+    "{\n  \"advices\": [\n    \"Konut kredisi için en uygun faiz oranlarını araştırın ve karşılaştırın.\",\n    \"Aylık bütçenizi oluşturun ve tasarruf hedeflerinizi belirleyin.\",\n    \"Kira yerine ev sahibi olmanın uzun vadeli maliyetlerini hesaplayın.\",\n    \"İstanbul'daki emlak piyasasını takip edin ve uygun fiyatlı bölgeleri araştırın.\",\n    \"Devlet destekli konut projeleri ve teşvikleri hakkında bilgi edinin.\"\n  ]\n}"
+  ],
+  "lessons": [
+    "Konut kredisi için en uygun faiz oranlarını araştırın ve karşılaştırın.",
+    "Aylık bütçenizi oluşturun ve tasarruf hedeflerinizi belirleyin.",
+    "Kira yerine ev sahibi olmanın uzun vadeli maliyetlerini hesaplayın.",
+    "İstanbul'daki emlak piyasasını takip edin ve uygun fiyatlı bölgeleri araştırın.",
+    "Devlet destekli konut projeleri ve teşvikleri hakkında bilgi edinin."
+  ]
+}

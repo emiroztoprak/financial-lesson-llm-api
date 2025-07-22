@@ -1,0 +1,24 @@
+{
+  "modelName": "gpt-4o-mini",
+  "temperature": 0.0,
+  "timestamp": "20250722_154448",
+  "userProfile": {
+    "age": 24,
+    "location": "Berlin, Germany",
+    "Occupation": "Software Developer",
+    "Language": "Turkish",
+    "Goal": "buying my own house"
+  },
+  "messages": [
+    "\nYour job is to increase the financial literacy of a person who may be living in different contexts such as language, location etc.\nDepending on these data, I want you to give a number of financial advices to this person.\nYour response must be in JSON format, and must be personalized and region‑specific according to the input.\n\nEXAMPLE:\nINPUT:\n{\"age\": 24, \"location\": \"Berlin, Germany\", \"Occupation\": \"Pharmacy owner\", \"Language\": \"English\", \"Goal\": \"to grow his/her business\"}\n\nOUTPUT:\n{\"advices\": [\"focus on marketing top‑selling products\", \"reduce stock or discontinue low sellers\", \"add wellness kits to your offerings\"]}\n",
+    "\nINPUT:\n{\"age\": 24, \"location\": \"Berlin, Germany\", \"Occupation\": \"Software Developer\", \"Language\": \"Turkish\", \"Goal\": \"buying my own house\"}\n\nOUTPUT:\n",
+    "{\n  \"advices\": [\n    \"Araştırma yaparak Berlin'deki konut piyasasını analiz edin ve bütçenize uygun bölgeleri belirleyin.\",\n    \"Kredi notunuzu kontrol edin ve iyileştirmek için gerekli adımları atın, böylece daha iyi mortgage koşulları elde edebilirsiniz.\",\n    \"Birikimlerinizi artırmak için aylık tasarruf hedefleri belirleyin ve bunlara sadık kalın.\",\n    \"Devlet destekli konut kredileri veya teşvikleri hakkında bilgi edinin, bu fırsatlar size yardımcı olabilir.\",\n    \"Bir gayrimenkul danışmanı ile çalışarak, doğru evi bulma sürecinde profesyonel destek alın.\"\n  ]\n}"
+  ],
+  "lessons": [
+    "Araştırma yaparak Berlin'deki konut piyasasını analiz edin ve bütçenize uygun bölgeleri belirleyin.",
+    "Kredi notunuzu kontrol edin ve iyileştirmek için gerekli adımları atın, böylece daha iyi mortgage koşulları elde edebilirsiniz.",
+    "Birikimlerinizi artırmak için aylık tasarruf hedefleri belirleyin ve bunlara sadık kalın.",
+    "Devlet destekli konut kredileri veya teşvikleri hakkında bilgi edinin, bu fırsatlar size yardımcı olabilir.",
+    "Bir gayrimenkul danışmanı ile çalışarak, doğru evi bulma sürecinde profesyonel destek alın."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "modelName": "gpt-4o-mini",
+  "temperature": 0.0,
+  "timestamp": "20250722_154602",
+  "userProfile": {
+    "age": 24,
+    "location": "Istanbul, Turkey",
+    "Occupation": "Software Developer",
+    "Language": "English",
+    "Goal": "Working as a freelancer"
+  },
+  "messages": [
+    "\nYour job is to increase the financial literacy of a person who may be living in different contexts such as language, location etc.\nDepending on these data, I want you to give a number of financial advices to this person.\nYour response must be in JSON format, and must be personalized and region‑specific according to the input.\n\nEXAMPLE:\nINPUT:\n{\"age\": 24, \"location\": \"Berlin, Germany\", \"Occupation\": \"Pharmacy owner\", \"Language\": \"English\", \"Goal\": \"to grow his/her business\"}\n\nOUTPUT:\n{\"advices\": [\"focus on marketing top‑selling products\", \"reduce stock or discontinue low sellers\", \"add wellness kits to your offerings\"]}\n",
+    "\nINPUT:\n{\"age\": 24, \"location\": \"Istanbul, Turkey\", \"Occupation\": \"Software Developer\", \"Language\": \"English\", \"Goal\": \"Working as a freelancer\"}\n\nOUTPUT:\n",
+    "{\n  \"advices\": [\n    \"build a strong online portfolio showcasing your projects and skills\",\n    \"network with other freelancers and potential clients through platforms like LinkedIn and local meetups\",\n    \"set competitive yet fair pricing for your services based on market research\",\n    \"consider using freelance platforms like Upwork or Freelancer to find initial clients\",\n    \"manage your finances by setting aside a portion of your income for taxes and savings\",\n    \"invest in continuous learning to keep your skills updated and relevant in the tech industry\"\n  ]\n}"
+  ],
+  "lessons": [
+    "build a strong online portfolio showcasing your projects and skills",
+    "network with other freelancers and potential clients through platforms like LinkedIn and local meetups",
+    "set competitive yet fair pricing for your services based on market research",
+    "consider using freelance platforms like Upwork or Freelancer to find initial clients",
+    "manage your finances by setting aside a portion of your income for taxes and savings",
+    "invest in continuous learning to keep your skills updated and relevant in the tech industry"
+  ]
+}
